@@ -1,0 +1,9 @@
+create database db_agro;
+
+create table tbl_registros(
+    id int AUTO_INCREMENT,
+    cidade varchar(30) not null,
+    estado varchar(20) not null,
+    dia varchar(10) not null,
+    PRIMARY KEY(id)
+)default character set = utf8;
